@@ -9,7 +9,6 @@ public class User implements Comparable<User> {
 		this.id=id ;
 		this.name=name;
 		this.email=email;
-//		System.out.println("User [UserId="+id+", UserName="+ name+", UserEmail="+email+"]");
 	}
 	public int compareTo(User u){
 		if (this.id==u.id)
@@ -21,7 +20,7 @@ public class User implements Comparable<User> {
 	
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", email=" + email + "]";
+		return "User [UserId=" + id + ", UserName=" + name + ", UserEmail=" + email + "]";
 	}
 	@Override
 	public int hashCode() {
