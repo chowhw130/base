@@ -17,6 +17,6 @@ public class testObject {
 //		System.out.println(postFromFriend.contains("first"));
 //		System.out.println(postFromFriend.contains("HKUST"));
 //		
-//	} 
+//	}  
 
 }

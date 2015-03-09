@@ -66,12 +66,10 @@ public class TestSortSearch {
 
 		// ******************Task 4: search posts (optional)
 		// Comment the code below if you can't finish this task
-		System.out
-				.println("\n***Search posts created in Feburary and mentioned Amy***");
+		System.out.println("\n***Search posts created in Feburary and mentioned Amy***");
 		Blog blog = new Blog(userA);
 		blog.setPosts(allposts);
 		blog.search(2, "Amy");
 
 	}
-
 }

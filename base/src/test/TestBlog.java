@@ -16,7 +16,7 @@ public class TestBlog {
 			line = br.readLine();
 		}catch(IOException e){
 			e.printStackTrace();
-		}
+		} 
 	return line;
 	}
 	

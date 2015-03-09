@@ -66,7 +66,6 @@ public class Blog {
 				System.out.println("Illegal deletion");
 			else
 				allPosts.remove(index);
-				
 	
 	}
 	@Override

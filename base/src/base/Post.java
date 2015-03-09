@@ -45,7 +45,6 @@ public class Post implements Comparable<Post>{
 
 	public int hashCode(){
 		
-		int hashCode= 0;
 		int a= date.hashCode();
 		int b = content.hashCode();		
 		return a*17+b*3;
