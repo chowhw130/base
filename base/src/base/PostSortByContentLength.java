@@ -12,3 +12,4 @@ public class PostSortByContentLength implements Comparator<Post>{
 	}
 
 }
+ 
