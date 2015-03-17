@@ -1,6 +1,8 @@
 package base;
 
-public class User implements Comparable<User> {
+import java.io.*;
+
+public class User implements Comparable<User>, Serializable {
 	private int id;
 	private String name;
 	private String email;
@@ -9,6 +11,9 @@ public class User implements Comparable<User> {
 		this.id=id ;
 		this.name=name;
 		this.email=email;
+	}
+	public String getUserName(){
+		return name;
 	}
 	public int compareTo(User u){
 		if (this.id==u.id)
