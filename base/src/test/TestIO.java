@@ -12,7 +12,9 @@ import blog.Blog;
 
 public class TestIO {
 
-	public static void main(String[] args) {
+	/*
+	 * public static void main(String[] args) {
+	 
 
           System.out.println("****Creating a blog...******");
 		User user = new User(1, "A", "a@cse.ust.hk");
@@ -46,13 +48,13 @@ public class TestIO {
 		blog.save(savefilepath);
 		
 		
-		
+		*/
 		
 		/** 
 		 * Now please move the file you saved to another place, say D:/
 		 */
 		
-		
+		/*
 
 		// ******************Task 2: load a blog from a file***********
 		// Comment the code below if you can't finish this task
@@ -71,6 +73,6 @@ public class TestIO {
 		Blog anyblog = new Blog(user);
 		anyblog.load("D:/non-exist.blog");
 
-	}
+	} */
 
 }

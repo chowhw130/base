@@ -127,7 +127,7 @@ public class Blog implements Serializable {
 		this.allPosts = b1.getPost();
 		is.close();
 		}catch(Exception ex){
-			System.out.println("Wait! Can't find the file");
+			System.out.println("Error! Can't find the file. Please check the path");
 		}
 	}
 	
